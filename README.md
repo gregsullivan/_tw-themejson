@@ -1,6 +1,6 @@
 # \_tw × theme.json
 
-A Tailwind CSS plugin that automatically pulls colors and widths from a WordPress theme’s theme.json file, initiated as follows:
+A Tailwind CSS plugin that automatically pulls colors and widths from a WordPress theme’s `theme.json` file, initiated as follows:
 
 ```js
 // tailwind.config.js
@@ -9,4 +9,6 @@ plugins: [
 ]
 ```
 
-This will extract the base colour palette (`settings.color.palette`) as well as values for `contentSize` and `wideSize`.
+This will extract the base color palette (`settings.color.palette`) as well as values for `contentSize` and `wideSize`.
+
+If one or more of your color palette’s `slug` values matches a slug in Tailwind’s default color palette, those colors from the default palette—including all shades—will be overridden by the `color` value from your `theme.json` file.
