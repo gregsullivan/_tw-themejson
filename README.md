@@ -1,6 +1,6 @@
 # \_tw × theme.json
 
-A Tailwind CSS plugin that automatically pulls colors and widths from a WordPress theme’s `theme.json` file, initiated as follows:
+A Tailwind CSS plugin created for [\_tw](https://underscoretw.com/) that automatically pulls colors and widths from a WordPress theme’s `theme.json` file, initiated as follows:
 
 ```js
 // tailwind.config.js
@@ -9,7 +9,7 @@ plugins: [
 ]
 ```
 
-By default, the `theme.json` file will be loaded from `./theme/theme.json`, relative to the current working directory. (The default path corresponds with that of [\_tw](https://underscoretw.com).) You can override this location by passing a new path as a string:
+By default, the `theme.json` file will be loaded from `./theme/theme.json`, relative to the current working directory. (The default path corresponds with that of \_tw.) You can override this location by passing a new path as a string:
 
 ```js
 // tailwind.config.js

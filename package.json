@@ -1,6 +1,6 @@
 {
   "name": "@_tw/themejson",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Tailwind CSS plugin that adds colors and widths from a WordPress theme’s theme.json file to a Tailwind project’s configuration.",
   "main": "index.js",
   "repository": "https://github.com/gregsullivan/_tw-themejson",
@@ -9,6 +9,6 @@
     "access": "public"
   },
   "peerDependencies": {
-    "tailwindcss": ">=2.0.0"
+    "tailwindcss": ">=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1"
   }
 }
